@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Syaifulloh | My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body id="body">
+    <nav class="w-full fixed top-0 left-0 right-0 flex justify-between items-center bg-white mx-0 lg:mx-6 lg:m-6 p-4 lg:px-6">
+        <h3 class="text-teal-500 font-bold text-xl">Akbar Syaifulloh</h3>
+        <img src="img/hamburger.svg" alt="hamburger menu" class="w-[25px] h-[25px] pointer" type="button" onclick="hamburger()">
+        <div id="nav-menu" class="hidden absolute top-[70px] lg:static lg:flex bg-white lg:bg-none">
+            <a href="index.html" class="mx-4 hover:text-teal-500">Beranda</a>
+            <a href="#about-me" class="mx-4 hover:text-teal-500">Tentang Saya</a>
+            <a href="#clients" class="mx-4 hover:text-teal-500">Portfolio</a>
+            <a href="#portfolio" class="mx-4 hover:text-teal-500">Clients</a>
+            <a href="#blog" class="mx-4 hover:text-teal-500">Blog</a>
+            <a href="#contact-me" class="mx-4 hover:text-teal-500">Contact</a>
+        </div>
+    </nav>
+    <section id="hero" class="flex flex-col lg:flex-row lg:justify-around py-[50px] px-[20px] lg:py-[100px] lg:px-[40px] mt-8 lg:mt-0 items-center">
+        <div class="">
+            <h4 class="font-bold text-[15px] lg:text-[20px] text-teal-500">Halo semua, saya</h4>
+            <h1 class="font-bold text-[30px] lg:text-[50px]">Akbar syaifulloh</h1>
+            <h3 class="text-[15px] lg:text-[30px] font-base">Student & Web developer</h3>
+            <p class="text-[13px] lg:text-[18px] my-2 lg:my-4">Berkuliah di STIMIK Tunas Bangsa Banjarnegara.</p>
+        </div>
+        <div class="my-10 lg:my-0 mx-auto lg:mx-0">
+            <img src="img/Akbar photo.png" alt="Akbar" class="w-full h-[300px] lg:w-[400px] lg:h-[450px]">
+        </div>
+    </section>
+    <section id="about-me" class="flex flex-col py-[50px] pt-0 px-[20px] lg:py-[100px] lg:px-[40px] pb-[80px]">
+        <h5 class="text-teal-500 text-[15px] lg:text-lg font-bold uppercase mb-2">Tentang Saya</h5>
+        <div class="flex flex-col lg:flex-row items-start">
+            <div class="mb-4">
+                <h1 class="font-bold text-[18px] lg:text-[30px]">Mahasiswa STIMIK Tunas Bangsa</h1>
+                <p class="text-[15px] lg:text-[18px]">
+                    Sebagai mahasiswa STIMIK Tunas Bangsa Banjarnegara, saya merangkul semangat keunggulan, inovasi, dan kreativitas dalam segala hal yang saya lakukan. Saya memiliki hasrat yang tinggi untuk terus belajar dan beradaptasi dengan perkembangan teknologi yang cepat.
+
+Dengan dedikasi dan semangat yang tinggi, saya bertekad untuk menjadi seorang profesional yang kompeten di bidang teknologi informasi. Saya yakin bahwa pendidikan yang saya terima di STIMIK Tunas Bangsa Banjarnegara akan membekali saya dengan pengetahuan dan keterampilan yang diperlukan untuk menghadapi tantangan di dunia kerja dan berkontribusi positif bagi masyarakat dan industri teknologi informasi.
+                </p>
+            </div>
+            <div class="">
+                <h1 class="font-bold text-[18px] lg:text-[30px]">Mari Berteman</h1>
+                <p class="text-[15px] lg:text-[18px]">
+                    Yuk, jangan lewatkan keseruan di dunia sosial media! Gabunglah dengan komunitas kami dan temukan pengalaman baru yang tak terlupakan. Dapatkan informasi terkini, temui orang-orang menarik, dan jadilah bagian dari diskusi yang menginspirasi. Segera ikuti akun kami dan bergabunglah dengan ribuan pengikut setia kami. Bersama-sama, mari ciptakan jejak digital yang penuh kreativitas dan inspirasi!
+
+
+                </p>
+                <div class="flex my-4">
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/agungpraz31" class="mr-4" target="_blank">
+                        <img src="img/instagram.svg" alt="ig" class="">
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://linkedin.com/agungpraz31" class="mr-4" target="_blank">
+                        <img src="img/linkedin.svg" alt="linkedin" class="">
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/agungpraz31" class="mr-4" target="_blank">
+                        <img src="img/twitter.svg" alt="linkedin" class="">
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://youtube.com/agungpraz31" class="mr-4" target="_blank">
+                        <img src="img/youtube.svg" alt="linkedin" class="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="text-center py-[50px] px-[20px] lg:py-[100px] lg:px-[40px] bg-slate-200">
+        <h5 class="text-teal-500 font-bold text-[15px] lg:text-lg mb-2 lg:mb-0">Portfolio</h5>
+        <h1 class="font-bold text-[20px] lg:text-[40px]">Project Terbaru</h1>
+        <p class="mx-8 my-2 text-sm lg:text-md">
+           inilah Proyek yang telah kami kerjakan 
+        </p>
+        <div class="w-full flex flex-wrap justify-around items-center p-6 px-2 lg:px-6">
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/program-c-kasir-sederhana.png" 
+                    alt="project"
+                    class="w-full h-[120px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">Program kasir.</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1">Proyek ini dirancang dan dikembangkan untuk membantu pemilik usaha dalam mengelola transaksi penjualan dengan lebih efisien dan efektif.</p>
+                </div>
+            </div>
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/flutter.jpg" 
+                    alt="project"
+                    class="w-full h-[120px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">membuat aplikasi mobile.</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1">Dalam proyek ini, saya menggunakan berbagai teknologi dan bahasa pemrograman untuk menghasilkan aplikasi yang handal dan inovatif. </p>
+                </div>
+            </div>
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/website html.jpg" 
+                    alt="project"
+                    class="w-full h-[120px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">membuat web html.</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1">Saya telah merancang dan mengembangkan situs web resmi untuk sebuah perusahaan teknologi terkemuka. Situs ini mencakup halaman beranda yang menarik dengan desain responsif, informasi tentang produk dan layanan perusahaan, serta formulir kontak yang mudah digunakan.</p>
+                </div>
+            </div>
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/Arduino_IDE_code.webp" 
+                    alt="project"
+                    class="w-full h-[120px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">Arduino project.</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1">Proyek ini melibatkan penggunaan Arduino untuk membuat termostat cerdas yang dapat mengontrol suhu ruangan. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clients" class="text-center py-[50px] px-[20px] lg:py-[100px] lg:px-[40px] bg-slate-800">
+        <h5 class="text-teal-500 font-bold text-[15px] lg:text-lg mb-2 lg:mb-0">Clients</h5>
+        <h1 class="font-bold text-[20px] lg:text-[40px] text-white">Yang Pernah Bekerjasama</h1>
+        <p class="mx-8 my-2 text-sm lg:text-md text-white">
+            Melalui kolaborasi ini, kami menghadirkan produk dan layanan yang terbaik.
+        </p>
+        <div class="flex flex-wrap justify-around items-center w-[60%] mx-auto my-8">
+            <img src="img/google.svg" alt="google" class="w-[100px] lg:w-[130px] mb-4 lg:mb-0">
+            <img src="img/tokopedia.svg" alt="tokopedia" class="w-[130px] mb-4 lg:mb-0">
+            <img src="img/traveloka.svg" alt="traveloka" class="w-[130px] mb-4 lg:mb-0">
+            <img src="img/gojek.svg" alt="gojek" class="w-[130px]">
+        </div>
+    </section>
+    <section id="portfolio" class="text-center py-[50px] px-[20px] lg:py-[100px] lg:px-[40px] bg-slate-200">
+        <h5 class="text-teal-500 font-bold text-[15px] lg:text-lg mb-2 lg:mb-0">Blog</h5>
+        <h1 class="font-bold text-[20px] lg:text-[40px]">Artikel Terbaru</h1>
+        <p class="mx-8 my-2 text-sm lg:text-md">
+            Dapatkan informasi terbaru dari situs kami.
+        </p>
+        <div class="w-full flex flex-wrap justify-around items-center p-6 px-2 lg:px-6">
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/laptop.jpg" 
+                    alt="project"
+                    class="w-full h-[200px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">5 Rekomendasi laptop yang cocok untuk pelajar.</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1"> Untuk membantu Anda dalam memilih, kami telah menyusun daftar beberapa laptop terbaik yang dapat memenuhi kebutuhan berbagai pengguna.</p>
+                </div>
+            </div>
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/programer.jpg" 
+                    alt="project"
+                    class="w-full h-[200px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">tips belajar web bagi pemula</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1">Menguasai dasar-dasar web merupakan keterampilan yang sangat berharga di era digital saat ini. Jika Anda seorang pemula yang ingin belajar web, berikut ini adalah beberapa tips yang akan membantu Anda memulai perjalanan Anda.</p>
+                </div>
+            </div>
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/progammer-menyenangkan.webp" 
+                    alt="project"
+                    class="w-full h-[200px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">Lorem ipsum dolor sit.</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1">Pada era teknologi yang semakin maju ini, pekerjaan sebagai programmer telah menjadi sorotan yang signifikan. </p>
+                </div>
+            </div>
+            <div id="card" class="bg-white flex flex-col w-full lg:w-[40%] rounded-lg shadow-lg overflow-hidden m-2 mb-6">
+                <img 
+                    src="img/kuliah.jpg" 
+                    alt="project"
+                    class="w-full h-[200px] lg:h-[200px]">
+                <div class="text-left p-1">
+                    <h3 class="font-bold text-[15px] lg:text-lg m-2 mb-1">bekerja sambil kuliah,siapa takut..?</h3>
+                    <p class="text-xs lg:text-md m-2 mt-1">Memiliki pekerjaan sambil kuliah menjadi tantangan yang sering dihadapi oleh banyak mahasiswa. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-me" class="text-center py-[50px] px-[20px] lg:py-[100px] lg:px-[40px]">
+        <h5 class="text-teal-500 font-bold text-[20px] lg:text-lg mb-2 lg:mb-0">Contact</h5>
+        <h1 class="font-bold text-[20px] lg:text-[40px]">Hubungi Kami</h1>
+        <p class="mx-8 my-2 text-sm lg:text-md">
+            Jangan ragu untuk menghubungi.
+        </p>
+        <ul class="text-left w-[90%] lg:w-[50%] mx-auto my-8 text-lg">
+            <li>
+                <label for="name" class="font-semibold text-teal-500 text-sm lg:text-md">Nama</label>
+                <input type="text" id="name" class="w-full block bg-gray-200 p-2 rounded-lg mt-2 mb-4 lg:mb-6 text-sm lg:text-md">
+            </li>
+            <li>
+                <label for="email" class="font-semibold text-teal-500 text-sm lg:text-md">Email</label>
+                <input type="email" id="email" class="w-full block bg-gray-200 p-2 rounded-lg mt-2 mb-4 lg:mb-6 text-sm lg:text-md">
+            </li>
+            <li>
+                <label for="pesan" class="font-semibold text-teal-500 text-sm lg:text-md">Pesan</label>
+                <input type="text" id="pesan" class="w-full block bg-gray-200 p-2 rounded-lg mt-2 mb-4 lg:mb-6 text-sm lg:text-md">
+            </li>
+            <button class="w-full bg-teal-500 font-semibold text-sm lg:text-lg text-white rounded-full p-2 mt-1 lg:mt-0" type="submit" id="submit" onclick="kirimPesan()">Kirim</button>
+        </ul>
+    </section>
+    <footer id="footer" class="flex flex-col bg-slate-800 text-white py-8 px-10">
+        <div class="flex flex-col lg:flex-row items-start text-lg">
+            <div class="lg:mr-[140px] mb-6 lg:mb-0">
+                <h1 class="font-bold text-xl lg:text-2xl">Akbar syaifulloh</h1>
+                <h2 class="font-bold text-[14px] lg:text-[16px]">Hubungi kami</h2>
+                <p class="text-xs lg:text-sm my-1">
+                    akbarsyaifulloh36@gmail.com <br>
+                    Jl Wanayasa-kalibening
+                </p>
+            </div>
+            <div class="lg:mr-[140px] mb-4 lg:mb-0">
+                <h1 class="font-bold text-[14px] lg:text-[16px]">Kategori Tulisan</h1>
+                <div class="text-xs lg:text-sm mt-0 lg:mt-2">
+                    <a href="#" class="block mb-1">Programming</a>
+                    <a href="#" class="block mb-1">Teknologi</a>
+                </div>
+            </div>
+            <div class="lg:mr-[140px] mb-4 lg:mb-0">
+                <h1 class="font-bold text-[14px] lg:text-[16px]">Tautan</h1>
+                <div class="text-xs lg:text-sm mt-0 lg:mt-2">
+                    <a href="index.html" class="block">Beranda</a>
+                    <a href="#about-me" class="block mb-1">Tentang Saya</a>
+                    <a href="#portfolio" class="block mb-1">Portfolio</a>
+                    <a href="#clients" class="block mb-1">Clients</a>
+                    <a href="#contact-me" class="block mb-1">Contact</a>
+                </div>
+            </div>
+        </div>
+        <hr class="w-full my-4">
+        <div class="text-center">
+            <div class="flex justify-center my-4 pt-4 pb-2">
+                <!-- Instagram -->
+                <a href="https://instagram.com/agungpraz31" class="mr-4" target="_blank">
+                    <img src="img/instagram.svg" alt="ig" class="">
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/agungpraz31" class="mr-4" target="_blank">
+                    <img src="img/linkedin.svg" alt="linkedin" class="">
+                </a>
+                <!-- Twitter -->
+                <a href="https://twitter.com/agungpraz31" class="mr-4" target="_blank">
+                    <img src="img/twitter.svg" alt="linkedin" class="">
+                </a>
+                <!-- YouTube -->
+                <a href="https://youtube.com/agungpraz31" class="mr-4" target="_blank">
+                    <img src="img/youtube.svg" alt="linkedin" class="">
+                </a>
+            </div>
+            <p class="text-xs text-gray-200">Made with ❤️ by <span class="text-teal-500">Akbar Syaifulloh</span> use <span class="text-blue-300">Tailwind CSS</span></p>
+        </div>
+    </footer>
+
+    <script>
+        function hamburger(){
+            const navmenu = document.getElementById('nav-menu').classList.remove('hidden')
+        }
+
+        function kirimPesan(){
+            const nama = document.getElementById('name').value
+            const email = document.getElementById('email').value
+            const pesan = document.getElementById('pesan').value
+            const noHp = "isi dengan no whatsapp, awali dengan 62"
+            let kirimWa = `https://wa.me/${noHp}?text=Nama:%20${nama}%0AEmail:%20${email}%0APesan:%20${pesan}`
+            window.location.href = kirimWa
+        }
+    </script>
+</body>
+</html>
